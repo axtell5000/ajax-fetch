@@ -1,0 +1,97 @@
+/* Base styles & resets */
+
+html {
+  color: rgb(46, 45, 48);
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 3rem auto;
+  width: 80%;
+}
+
+a {
+  color: rgb(89, 0, 255);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: rgb(232, 90, 245);
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global components */
+
+.btn {
+  background-color: rgb(89, 0, 255);
+  border: 1px solid rgb(89, 0, 255);
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgb(71, 4, 196);
+  border-color: rgb(71, 4, 196);
+  color: white;
+}
+
+.btn.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgb(89, 0, 255);
+}
+
+.btn.btn-alt:hover,
+.btn.btn-alt:active {
+  color: rgb(232, 90, 245);
+}
+
+/* Site-wide content / elements */
+
+#main-header {
+  align-items: center;
+  background-color: rgb(89, 0, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 10%;
+}
+
+#logo a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#main-header ul {
+  display: flex;
+}
+
+#main-header li {
+  margin-left: 2rem;
+}
+
+#main-header nav a {
+  color: white;
+  font-size: 1.25rem;
+}
+
+#main-header nav a:hover,
+#main-header nav a:active {
+  color: rgb(255, 217, 0);
+}

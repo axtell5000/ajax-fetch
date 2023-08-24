@@ -1,0 +1,89 @@
+/* All posts page */
+
+h1 {
+  text-align: left;
+}
+
+#all-posts {
+  text-align: center;
+}
+
+#posts-list {
+  margin: 3rem auto;
+  max-width: 40rem;
+}
+
+.post-item {
+  background-color: rgb(220, 204, 252);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.post-item h2,
+.post-item p {
+  margin: 0.5rem 0;
+}
+
+.post-item-author {
+  font-style: italic;
+}
+
+.post-actions {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.post-actions .btn-alt {
+  padding: 0;
+}
+
+/* Post detail page */
+
+#post-meta {
+  color: rgb(156, 149, 149);
+}
+
+#post-meta address {
+  display: inline;
+}
+
+#post-meta time {
+  font-style: italic;
+}
+
+#body {
+  white-space: pre-wrap; /* This ensures that line breaks and whitespace are kept */
+}
+
+#comments {
+  border-top: 2px solid rgb(204, 204, 204);
+  margin: 2rem 0;
+  text-align: center;
+}
+
+#comments-form {
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  margin: 2rem auto;
+  max-width: 30rem;
+  padding: 1rem;
+}
+
+#comments-form h2 {
+  margin: 0 0 1rem 0;
+}
+
+#comments-form form {
+  margin: 2rem 0;
+}
+
+.comment-item {
+  border: 1px solid rgb(204, 204, 204);
+  margin: 1rem auto;
+  max-width: 30rem;
+  padding: 0.5rem;
+}
